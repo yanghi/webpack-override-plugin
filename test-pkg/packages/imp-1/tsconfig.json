@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "experimentalDecorators": true,
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "baseUrl": ".",
+      "jsx": "react",
+      "module": "commonjs",
+      "paths": {
+          "@/*": ["./src/*"]
+      },
+      "types": ["node", "webpack"]
+  }
+}
